@@ -1,13 +1,8 @@
-import Address from './entity/address'
 import Customer from './entity/customer'
 import Order from './entity/order'
 import OrderItem from './entity/order_item'
 
-const customer = new Customer(
-  '1',
-  'John Doe',
-  new Address('123 Main St', 1, 'Springfield', 'USA'),
-)
+const customer = new Customer('1', 'John Doe')
 
 customer.activate()
 
