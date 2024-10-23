@@ -15,7 +15,7 @@ describe('Customer unit tests', () => {
 
     customer.changeName('Jane')
 
-    expect(customer._name).toBe('Jane')
+    expect(customer.name).toBe('Jane')
   })
 
   it('should activate customer', () => {
